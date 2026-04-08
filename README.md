@@ -4,6 +4,7 @@
 * **Zhiheng Lei**
 * **Inti Liberona**
 * **Kevin Álvarez**
+* **Renato Mujica**
 
 
 ### Descripcion del laboratorio:
