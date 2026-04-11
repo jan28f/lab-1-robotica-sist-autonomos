@@ -30,7 +30,7 @@ Se validaron los estados de movimiento base mediante la configuración de veloci
 | **Curva** | 1.0 | 2.0 | Trayectoria circular hacia la izquierda. |
 | **Rotación** | 2.0 | -2.0 | Giro sobre su propio eje central. |
 
-**Desafío:** Se programaron trayectorias para dibujar una línea recta, una curva y un círculo mediante el ajuste de los parámetros de velocidad en el bucle principal.
+**Nota:** El código del controlador está hecho para que, cada ciertos segundos, cambie el tipo de movimiento, de esta manera, en una sola ejecución podemos ver los 3 tipos de movimiento (Linear, Curva y Rotación)
 
 
 ### Preguntas de análisis:
