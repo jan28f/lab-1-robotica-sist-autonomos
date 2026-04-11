@@ -13,10 +13,9 @@ Este proyecto implementa el control cinemático de un robot diferencial **e-puck
 
 ### Como ejecutar:
 1. **Requisitos:** Tener instalado **Webots** y **Python 3.x**.
-2. **Clonación:** Clonar este repositorio en su máquina local.
-3. **Carga del mundo:** Abrir Webots y cargar el archivo `.wbt` en la carpeta `/worlds`.
+2. **Crear el mundo:** Abrir Webots y crear un mundo nuevo en plano.
 4. **Configuración:** * Seleccionar el robot e-puck en el árbol de escena.
-    * En el campo `controller`, seleccionar el nombre de este controlador.
+    * En el campo `controller`, pegar el código del controlador que se encuentra en este repositorio.
 5. **Simulación:** Presionar el botón `Play` para iniciar el movimiento.
 
 
