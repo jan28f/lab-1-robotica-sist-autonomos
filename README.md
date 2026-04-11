@@ -25,9 +25,9 @@ Se validaron los estados de movimiento base mediante la configuración de veloci
 
 | Tarea | Velocidad Izq ($v_l$) | Velocidad Der ($v_r$) | Resultado |
 | :--- | :--- | :--- | :--- |
-| **Línea Recta** | 2.0 | 2.0 | Movimiento lineal uniforme. |
-| **Curva** | 1.0 | 2.0 | Trayectoria circular hacia la izquierda. |
-| **Rotación** | 2.0 | -2.0 | Giro sobre su propio eje central. |
+| **Línea Recta** | 3.0 | 3.0 | Movimiento lineal uniforme. |
+| **Curva** | 3.0 | 1.5 | Trayectoria circular hacia la derecha. |
+| **Rotación** | 3.0 | -3.0 | Giro sobre su propio eje central. |
 
 **Nota:** El código del controlador está hecho para que, cada ciertos segundos, cambie el tipo de movimiento, de esta manera, en una sola ejecución podemos ver los 3 tipos de movimiento (Linear, Curva y Rotación).
 
