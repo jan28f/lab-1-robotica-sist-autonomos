@@ -34,10 +34,18 @@ Se validaron los estados de movimiento base mediante la configuración de veloci
 
 ### Preguntas de análisis:
 
-1. **¿Qué ocurre cuando ambas ruedas tienen la misma velocidad?** El robot se desplaza en línea recta. Al ser las velocidades iguales, la diferencia entre ellas es cero, lo que anula la velocidad angular ($\omega = 0$).
+1. **¿Qué ocurre cuando ambas ruedas tienen la misma velocidad?**
 
-2. **¿Cómo cambia la trayectoria cuando las velocidades son diferentes?** Se produce una trayectoria curva. El robot gira hacia el lado de la rueda que tiene menor velocidad; a mayor diferencia de velocidad, menor es el radio de giro.
+El robot se desplaza en línea recta. Al ser las velocidades iguales, la diferencia entre ellas es cero, lo que anula la velocidad angular ($\omega = 0$).
 
-3. **¿Qué ocurre cuando una rueda gira en sentido opuesto a la otra?** Si las magnitudes son iguales pero de signo contrario, el robot realiza una rotación pura sobre su propio eje. La velocidad lineal es $0$, por lo que cambia su orientación sin desplazarse.
+2. **¿Cómo cambia la trayectoria cuando las velocidades son diferentes?**
 
-4. **¿Qué tipo de movimiento permite dibujar un círculo?** Mantener velocidades constantes pero asimétricas ($v_r \neq v_l$) durante todo el recorrido. Esto asegura un radio de giro constante que cierra la trayectoria en un círculo.
+Se produce una trayectoria curva. El robot gira hacia el lado de la rueda que tiene menor velocidad; a mayor diferencia de velocidad, menor es el radio de giro.
+
+3. **¿Qué ocurre cuando una rueda gira en sentido opuesto a la otra?**
+
+Si las magnitudes son iguales pero de signo contrario, el robot realiza una rotación pura sobre su propio eje. La velocidad lineal es $0$, por lo que cambia su orientación sin desplazarse.
+
+4. **¿Qué tipo de movimiento permite dibujar un círculo?**
+
+Mantener velocidades constantes pero asimétricas ($v_r \neq v_l$) durante todo el recorrido. Esto asegura un radio de giro constante que cierra la trayectoria en un círculo.
